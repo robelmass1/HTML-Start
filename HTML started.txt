@@ -1,0 +1,143 @@
+# HTML - is not a programming language . It is a way of displaying our codes in website.
+It is  a markup language .PHP  or Java are programming languages and use logic and 
+conditions in order to do that .
+
+# eg: This is my first very website after restoration and<b>I am very excited.</b> 
+   -- I am very excited in the above will be in bold. 
+   ==<b> is opening tag
+   ==</b>is closing tag
+# <!DOCTYPE html>
+  - we use it at the top and tells us that it is html file./ declare it is html file
+
+# <html>   
+ 
+  </html>
+-- the above tells us that any thing we put inside can inherit the properties of html.
+
+# <body>
+    
+  </body>
+-- it is the main part of html which includes the main files to be written.
+#  <head>
+        <meta charset="utf-8">
+   </head>
+
+ -- In head we have meta tag. 
+ -- utf-8 is a type of unicode used virtually in all codes in the world.
+It is seen as a dictinory translating human language to computer. 
+
+# <meta name="viewpoint" content="width=device-width,initial-scale=1">
+-- we put the above meta tag in the head section the same way.
+-- It is used in responsive website.(display in all devices like tablets,computers,mobilephones).
+--width=device--makes the same width as the device in order to run the code.
+
+# <title> </title>
+ -- this is title tag that we put in the head section . It sets the title of the webpage.
+# Inside <body> </body> 
+ -- Inside body tag we have header tag(headline) h1 to h6.
+ -- h1 is highest in priority and used in the title of the page.
+# We also use paragraph tag <P> tag inside body to make our content in blocks.
+# <br> -- br tag is used to put the next word to be in new line.
+# <i> </i>--italic tag makes the word in middle italic.
+# <u>  </u> -- underline tag makes it underlined.
+# <em>  </em>---emphasise tag . It's default is itallic .
+#  <strong>  </strong>---same as bold tag . This is strong tag.
+# <hr> ---this is horzontal rule tag. It put horzontal line crossing the entire page.
+# Link tag -- it is also called a tag   ---<a>  </a>-- a stands for anchor.
+To the link tag we also add an attribute. We add href on it
+   <a href=" "> </a>
+ -- href stands for hypertext reference.
+# url - stands for univeresal resource locator. 
+It gives the location of file we want to load.
+# Target attribute- helps to load the link tag to be open in new page.
+Unless it will be opened at the same page.
+  eg: <a href="https://www.google.com" target="_blank"> </a>
+# Image has an attribute called source.This tells us the source of an image.
+  eg: <img src="http://via.placeholder.com/300x150" border="10">
+    -- We can add a border attribute which is 10 pixel (10 px).
+# There are two types of lists. These are ol and ul . One is ordered list and 
+the other is unordered list.
+  eg:  <ul>
+          <li> apples</li>
+          <li>Oranges</li>
+       </ul>
+  -- here is <ul> if we make it <ol> it will be ordered as 1,2.
+  eg2: 
+       <ul>
+           <li> apples
+               <ol>
+                  <li>Red apple</li>
+                  <li>Green apple</li
+                  <li>Yellow apple</li>
+                </ol>
+           </li>
+           <li>Oranges</li>
+           <li>Banana</li>
+       </ul>
+-- we can also put a list in another list. Here apples has another list created in it.
+This is called child list.We say apple has child element(list).The outer element which is apple above
+is called parent element.We use indentation in our code to make it clear.
+--Putting one html tag in to another is called Nesting. 
+# Table tag:
+eg: 
+       <table border="10" cellpadding="10" cellspacing="10">
+            <tr> 
+                <th>Month</th>
+                <th>Rent</th>
+                <th>Utilities</th>
+                <th>Entertainment</th>
+            </tr>
+            <tr>
+                <td> August</td>
+                <td> 1500$</td>
+                <td> 350$</td>
+                <td> 120$</td>
+         
+
+            </tr>
+        </table>
+-- We have <tr> - table row and <th> which is table header.
+---<td> stands for table data.
+---We can add an attribute of 10 px border for the table for the outside.
+-- cellpadding control the amount of extra space inside each cell. 
+--cellspacing makes gap between each cell . Here above we have 10 pixel gap between each cell.
+
+    eg: <th colspan="2">Utilities</th>
+-- We can also use row span the same way as column span. In order to put the rows together.
+    eg 2:
+   <table border="10" cellpadding="10" cellspacing="0">
+            <tr> 
+                <th> </th>
+                <th>Month</th>
+                <th>Rent</th>
+                <th colspan="2">Utilities</th>
+                <th>Entertainment</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Fall</td>
+                <td> June</td>
+                <td> 1200$</td>
+                <td>350$</td>
+                <td> 120$</td>
+                <td> 100$</td>
+            </tr>
+            <tr>
+                <td> July</td>
+                <td> 1400$</td>
+                <td>350$</td>
+                <td> 120$</td>
+                <td> 100$</td>
+            </tr>
+            <tr>
+                <td> August</td>
+                <td> 1800$</td>
+                <td>350$</td>
+                <td> 120$</td>
+                <td> 100$</td>
+            </tr>
+  </table>
+
+-- colspan makes the next 2 to be in one column . In the above 350 and 120 will be in the same 
+column under utilities.
+
+
